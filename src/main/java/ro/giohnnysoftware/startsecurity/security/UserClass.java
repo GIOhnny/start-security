@@ -7,11 +7,11 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-public class User implements UserDetails {
+public class UserClass implements UserDetails {
     private String username;
     private String password;
 
-    public User (String username, String password) {
+    public UserClass(String username, String password) {
         this.username = username;
         this.password = password;
     }
